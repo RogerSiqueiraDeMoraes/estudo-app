@@ -1,7 +1,7 @@
-import { Text, View, Button } from 'react-native';
+import { Button, Text, View } from 'react-native';
 import app from './firebaseConfig';
 
-import { getFirestore, collection, addDoc } from "firebase/firestore";
+import { addDoc, collection, getFirestore } from "firebase/firestore";
 
 const db = getFirestore(app);
 
